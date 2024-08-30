@@ -12,3 +12,6 @@
          - eg. file Linux_Notes
          - output ->  Linux_Notes : ASCII text
         
+   2. **stat** -> syntax : stat *filename*
+        -   display detailed information about file or file system.
+        -   
