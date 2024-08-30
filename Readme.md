@@ -8,7 +8,7 @@
 
 * File and Folders
    1. **file** -> syntax : file *filename*
-     - Determines file type, examines file contents rather than its name or extension to identify what kind of file it is.
-      - eg. file Linux_Notes
-      - output ->  Linux_Notes : ASCII text
+        - Determines file type, examines file contents rather than its name or extension to identify what kind of file it is.
+         - eg. file Linux_Notes
+         - output ->  Linux_Notes : ASCII text
         
