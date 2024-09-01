@@ -13,5 +13,6 @@
          - output ->  Linux_Notes : ASCII text
         
    2. **stat** -> syntax : stat *filename*
-        -   display detailed information about file or file system.
-        -   
+        -   display detailed information about file or file system like includes information like the file's size, permissions, owner, modification time, etc.
+        -   eg. stat Linux_Notes
+        -   output -> ]
