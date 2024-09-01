@@ -18,6 +18,8 @@
         -   output -> ![Logo](stat_command.png)
 
 
-* Command functionalities :
-     1. **ls -R departments** : The *ls -R departments* command in Linux lists all files and directories within a specified directory and does so recursively, i.e it will include the contents of all subdirectories as well.
-        - output -> output -> ![Logo](ls-R_command.png)
+* **ls command working** :
+   1. **ls -R departments** : The *ls -R departments*  lists all files and directories within a specified directory and does so recursively, i.e it will include the contents of all subdirectories as well.
+        - output -> ![Logo](ls-R_command.png)
+   2. **ls -l** : *ls -l* lists the contents of a directory in long format. This long listing format provides detailed information about each file or directory.
+        - output->  ![Logo](ls-l_command.png)
