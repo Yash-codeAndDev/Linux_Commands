@@ -16,3 +16,8 @@
         -   display detailed information about file or file system like includes information like the file's size, permissions, owner, modification time, etc.
         -   eg. stat Linux_Notes
         -   output -> ![Logo](stat_command.png)
+
+
+* Command functionalities :
+     1. **ls -R departments** : The *ls -R departments* command in Linux lists all files and directories within a specified directory and does so recursively, i.e it will include the contents of all subdirectories as well.
+        - output -> output -> ![Logo](ls-R_command.png)
