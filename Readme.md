@@ -23,3 +23,18 @@
         - output -> ![Logo](ls-R_command.png)
    2. **ls -l** : *ls -l* lists the contents of a directory in long format. This long listing format provides detailed information about each file or directory.
         - output->  ![Logo](ls-l_command.png)
+
+*   **Create and Remove Folders**
+
+       1. Create Folder : *mkdir foldername* Creates folder in current working directory.
+             - eg. *mkdir yash_docs*
+             * if I want to create folder inside another folder of current working directory
+                  -   *mdkir yash_docs/college/Marksheets*
+             * if we want to create folder with sub folder inside it we need to pass option in command
+                  - *mkdir -p yash_docs/college/DBMS_LAB/Practicals*
+                    
+       2. Remove Folder: *rmdir foldername* removes empty folder ( removes folder only when empty)
+             - eg. *rmdir new_folder*
+
+* ** Copy File and Folder**
+     1. Copying file: *cp originalfile copyfile* creates copy of *originalfile* with *copyfile name*
