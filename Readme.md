@@ -36,5 +36,19 @@
        2. Remove Folder: *rmdir foldername* removes empty folder ( removes folder only when empty)
              - eg. *rmdir new_folder*
 
-* ** Copy File and Folder**
-     1. Copying file: *cp originalfile copyfile* creates copy of *originalfile* with *copyfile name*
+* **Copy File and Folder**
+     1. Copying file: *cp originalfile copyfile* creates copy of *originalfile* with name *copyfile name*
+        - eg 1. *cp file1.txt file1_copy.txt* 
+             2. *cp file1.txt departments/images/file1_copy.txt
+
+     2. Copying folder: *cp -r originalfolder copyfolder* creates copy of *originalfolder* with name copyfolder*
+        - eg 1. *cp -r folder1 copyfolder1*
+             2. *cp -r folder1 departments/images/copyfolder2*
+
+* **Moving file and folder**
+
+     1. *mv file1.txt file2.txt* : move file in same directory and save it with name file2.txt
+     2. *mv file1.txt departments/images/file2.txt* : move file from current working directory to different directory with name file2.txt
+     3. *mv departments/images/file1.txt* . : move file from different directory to current working directory with name file2.txt.
+        
+  **_NOTE:_**  Same can be used for moving folders. eg: **mv folder1 folder2**  
