@@ -49,6 +49,14 @@
 
      1. *mv file1.txt file2.txt* : move file in same directory and save it with name file2.txt
      2. *mv file1.txt departments/images/file2.txt* : move file from current working directory to different directory with name file2.txt
-     3. *mv departments/images/file1.txt* . : move file from different directory to current working directory with name file2.txt.
+     3. *mv departments/images/file1.txt* : move file from different directory to current working directory with name file2.txt.
+     4.  *mv \*.txt departments/images* : moves all the textfiles to images folder.
+     5.  *mv departments/images/\* .* : moves all the files and folders in images to current working directory.
         
-  **_NOTE:_**  Same can be used for moving folders. eg: **mv folder1 folder2**  
+  **_NOTE:_**  Same can be used for moving folders. eg: **mv folder1 folder2**
+
+* **Remove file and folder**
+     1. *rm file.txt* : removes file.txt
+     2. *rm -r departments* : removes folder from current working directory
+
+
