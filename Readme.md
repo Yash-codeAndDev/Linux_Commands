@@ -84,6 +84,7 @@
             2. using symbolic notation
             
        - **OCTAL FILE PERMISSIONS**
-       - ![OctalFilePermission](OctalFilePermissions.png) !![OctalValues](OctalValues.png)
+
+         ![OctalFilePermission](OctalFilePermissions.png) ![OctalValues](OctalValues.png)
       
       
