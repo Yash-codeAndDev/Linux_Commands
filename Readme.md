@@ -69,5 +69,13 @@
      - eg. *find ~/Documents/departments -name "*d*
      - eg. *find ~/Documents/departments -type f -name ".txt"
 
-       
-          
+
+* **File Permissions** : File permissions determine who can read, write, or execute a file or directory
+     - file permission string has 10 characters.
+          - first character indicate file type
+          - next nine characters represents the permissions divided into three sets of three characters
+               - Owner (user) permissions
+               - Group permissions
+               - Others permissions
+          - eg. *ls -l sample.txt*
+          - output->  ![Logo](ls_permission.png)
