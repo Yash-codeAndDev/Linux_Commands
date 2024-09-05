@@ -80,8 +80,10 @@
           - eg. *ls -l sample.txt*
           - output->  ![Logo](ls_permission.png)
       - Changing file permission using *chmod* (change permissions on a file by modifying file mode bits) 
-         1. using octal notation
-         2. using symbolic notation
-      - **OCTAL FILE PERMISSIONS** ![OctalFilePermission](OctalFilePermissions.png) !![OctalValues](OctalValues.png)
+            1. using octal notation
+            2. using symbolic notation
+            
+       - **OCTAL FILE PERMISSIONS**
+       - ![OctalFilePermission](OctalFilePermissions.png) !![OctalValues](OctalValues.png)
       
       
