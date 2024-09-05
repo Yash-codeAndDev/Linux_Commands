@@ -65,9 +65,9 @@
         - options : Control the behavior of the find command, such as limiting the depth of the search or controlling the output.
         - expression : criteria for matching files or directories. These can include name patterns, file sizes, modification times, ownership, permissions, etc.
 
-     - eg. *find . -name "po*" : searches for folder or directories with name starting from po in current working directory and its subdirectories.
-     - eg. *find ~/Documents/departments -name "*d*
-     - eg. *find ~/Documents/departments -type f -name ".txt"
+     - eg. *find . -name "po\*"* : searches for folder or directories with name starting from po in current working directory and its subdirectories
+     - eg. *find ~/Documents/departments -name "\*d\*"* 
+     - eg. *find ~/Documents/departments -type f -name ".txt"*
 
 
 * **File Permissions** : File permissions determine who can read, write, or execute a file or directory
@@ -79,3 +79,9 @@
                - Others permissions
           - eg. *ls -l sample.txt*
           - output->  ![Logo](ls_permission.png)
+      - Changing file permission using *chmod* (change permissions on a file by modifying file mode bits) 
+         1. using octal notation
+         2. using symbolic notation
+      - **OCTAL FILE PERMISSIONS** ![OctalFilePermission](OctalFilePermissions.png) !![OctalValues](OctalValues.png)
+      
+      
