@@ -85,12 +85,28 @@
             1. using octal notation
             2. using symbolic notation
             
-       - **OCTAL FILE PERMISSIONS**
+       - **OCTAL Notation**
 
          <img src="OctalFilePermissions.png" width="350" height="250" alt="OctalFilePermissions"> 
          <img src="OctalValues.png" width="350" height="250" alt="OctalValues">
 
-       - Syntax : *chmod octalnotation filename*
+          - Syntax : *chmod octalnotation filename*
             
             <img src="permissionTable.svg" alt="permissionTable">
        
+       - **Symbolic Notation**
+            * Symbolic notation uses letters to represent permissions and categories
+                 1. Permissions
+                    1. Read : r
+                    2. Write : w
+                    3. Execute : x
+                 2. Categories:
+                    1. User : u (owner)
+                    2. Group : g
+                    3. Others : o
+                    4. All (user, group, and others) : a
+                 3. Modifying Permissions : Permissions are modified using operators
+                    1. Add permission : +
+                    2. Remove permission : -
+                    3. Set exact permissions : =
+             
