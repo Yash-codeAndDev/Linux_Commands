@@ -78,13 +78,19 @@
                - Group permissions
                - Others permissions
           - eg. *ls -l sample.txt*
+  
           - output->  ![Logo](ls_permission.png)
-      - Changing file permission using *chmod* (change permissions on a file by modifying file mode bits) 
+
+       - Changing file permission using *chmod* (change permissions on a file by modifying file mode bits) 
             1. using octal notation
             2. using symbolic notation
             
        - **OCTAL FILE PERMISSIONS**
 
-         ![OctalFilePermission](OctalFilePermissions.png) ![OctalValues](OctalValues.png)
-      
-      
+         <img src="OctalFilePermissions.png" width="350" height="250" alt="OctalFilePermissions"> 
+         <img src="OctalValues.png" width="350" height="250" alt="OctalValues">
+
+       - Syntax : *chmod octalnotation filename*
+            
+            <img src="permissionTable.svg" alt="permissionTable">
+       
