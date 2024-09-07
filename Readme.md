@@ -109,4 +109,17 @@
                     1. Add permission : +
                     2. Remove permission : -
                     3. Set exact permissions : =
-             
+                   
+               
+               | Symbolic Command    | Permissions Set (`rwxrwxrwx`)    | Description |
+               |---------------------|----------------------------------|-------------|
+               | `chmod u+r`         | `r--------` (read for user)      | Adds read permission for the **user (owner)**      |
+               | `chmod g+rw`         | `r--rw----` (write for group)    | Adds write permission for the **group**            |
+               | `chmod o+rwx`         | `r--rw-rwx` (execute for others) | Adds execute permission for **others**             |
+               | `chmod u+x,g+x`     | `r-xrwxrwx` (execute for user and group) | Adds execute permission for **user** and **group** |
+               | `chmod u-rx`        | `---rwxrwx` (remove read/write for user) | Removes read and write permissions from **user**   |
+               | `chmod g-x`         | `---rw-rwx` (remove execute for group) | Removes execute permission from **group**          |
+               | `chmod a+rwx`         | `rwxrwxrwx` (read, write ,execute for all)       | Adds read permission for **all users** (user, group, others) |
+               | `chmod u=rwx,g=rx,o=r` | `rwxr-xr--`(set permissions as given in command)                   | Sets **user** to full access, **group** to read/execute, **others** read-only |
+               | `chmod o-rwx`       | `rwxr-x---` (remove all for others) | Removes all permissions from **others**            |
+
