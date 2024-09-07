@@ -23,6 +23,17 @@
         - output -> ![Logo](ls-R_command.png)
    2. **ls -l** : *ls -l* lists the contents of a directory in long format. This long listing format provides detailed information about each file or directory.
         - output->  ![Logo](ls-l_command.png)
+            | Field                | Example Value      | Description                                                                                       |
+            |----------------------|--------------------|---------------------------------------------------------------------------------------------------|
+            | **File Type & Permissions** | `-rwxrwxrwx`      | Indicates the type of file and the permissions for user, group, and others.                       |
+            | **Number of Links**          | `1`                | Number of hard links to the file or directory.                                                    |
+            | **Owner (User)**             | `yash`            | The user who owns the file.                                                                       |
+            | **Group**                   | `yash`           | The group that owns the file.                                                                     |
+            | **File Size**               | `1474`             | Size of the file in bytes.                                                                        |
+            | **Modification Date & Time**| `June 19 2018`     | Date and time when the file was last modified.                                                    |
+            | **File Name**               | `poems.txt`      | The name of the file or directory.                                                                |
+            
+
 
 *   **Create and Remove Folders**
 
