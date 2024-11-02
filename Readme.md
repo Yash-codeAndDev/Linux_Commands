@@ -71,7 +71,7 @@
      2. *rm -r departments* : removes folder from current working directory
 
 * **Find** : Used to search for files and directories within a directory hierarchy.
-     - Syntax : *find <path> <options> <expression>
+     - Syntax : *find <path> <options> <expression>*
         - path : Specifies the directory or directories in which to start the search
         - options : Control the behavior of the find command, such as limiting the depth of the search or controlling the output.
         - expression : criteria for matching files or directories. These can include name patterns, file sizes, modification times, ownership, permissions, etc.
