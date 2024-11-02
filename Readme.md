@@ -50,11 +50,11 @@
 * **Copy File and Folder**
      1. Copying file: *cp originalfile copyfile* creates copy of *originalfile* with name *copyfile name*
         - eg 1. *cp file1.txt file1_copy.txt* 
-             2. *cp file1.txt departments/images/file1_copy.txt*
+        - eg 2. *cp file1.txt departments/images/file1_copy.txt*
 
      2. Copying folder: *cp -r originalfolder copyfolder* creates copy of *originalfolder* with name copyfolder*
         - eg 1. *cp -r folder1 copyfolder1*
-             2. *cp -r folder1 departments/images/copyfolder2*
+        - eg 2. *cp -r folder1 departments/images/copyfolder2*
 
 * **Moving file and folder**
 
